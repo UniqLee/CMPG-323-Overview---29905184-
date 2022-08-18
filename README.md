@@ -25,3 +25,9 @@ Branching strategy per project:
 * Project 4 Git branching(Master and develop) -  The purpose of the develop is to enable isolation work from the master branch to separate code changes. The latest commits can be pushed to the main branches. 
 
 * Project 5 Git branching(Master and develop) -  The purpose of the develop is to enable isolation work from the master branch to separate code changes. The latest commits can be pushed to the main branches. 
+ 
+ .gitignore file will be mostly used to tell and direct Git which files to ignore in the project.
+ 
+ Storage of credentials and sensitive information:
+ 1. Manage external contributors permision : By limiting centralizing accsess and permission granting abilities to the admin.
+ 2. Avoid storing credentials and sensitive data in the code before committing to a branch by employing git secrets tool in my CI and CD pipelines.
